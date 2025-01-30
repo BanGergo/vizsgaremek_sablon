@@ -15,12 +15,7 @@ main{
 }
 
 #searchBar {
-    width: 400px;
-}
-
-.dropdown-menu {
-    position: absolute;
-    z-index: 50;
+    width: 100%;
 }
 
 a:link {
@@ -34,4 +29,34 @@ a:hover {
 
 .dropdown {
     font-size: large;
+}
+
+@media screen and (max-width: 991px) {
+    .mobilGombok {
+        visibility: visible;
+    }
+
+    .desktopGombok {
+        visibility: hidden;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .mobilGombok {
+        visibility: hidden;
+    }
+
+    .desktopGombok {
+        visibility: visible;
+    }
+
+    #searchBar {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #body-content {
+        margin: auto;
+    }
 }

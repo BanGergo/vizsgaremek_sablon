@@ -14,6 +14,7 @@
     <body>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
+                <a href="./sablon.html" class="navbar-brand"><i class="fa-solid fa-house"></i></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
@@ -30,6 +31,10 @@
                             </ul>
                         </li>
                     </ul>
+                    <div class="mobilGombok py-2">
+                        <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal" id="mobilProfil"><i class="fa-solid fa-user"></i></button>
+                        <a href="#" role="button" class="btn btn-primary mx-2" id="mobilKosar"><i class="fa-solid fa-cart-shopping"></i></a>
+                    </div>
                     <form class="d-flex px-2" role="search">
                     <input class="form-control me-2" id="searchBar" type="search" placeholder="Search" aria-label="Search">
                     <button class="btn btn-outline-success" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
@@ -126,12 +131,14 @@
                             </div>
                         </div>
                     </div>
-                    <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal"><i class="fa-solid fa-user"></i></button>
-                    <a href="./kosar_sablon.html" role="button" class="btn btn-primary mx-2"><i class="fa-solid fa-cart-shopping"></i></a>
+                    <div class="desktopGombok">
+                        <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal" id="desktopProfil"><i class="fa-solid fa-user"></i></button>
+                        <a href="./kosar_sablon.html" role="button" class="btn btn-primary mx-2"><i class="fa-solid fa-cart-shopping" id="desktopKosar"></i></a>
+                    </div>
                 </div>
             </div>
         </nav>
-        <div class="container py-3">
+        <div class="container py-3 mx-auto">
             <div id="carouselExampleIndicators" class="carousel slide w-75 mx-auto" data-bs-ride="carousel" data-bs-touch="true">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -160,16 +167,16 @@
             </div>
         </div>
         <div class="container">
-            <div class="row mx-5 py-3">
-                <div class="col-md py-3">
+            <div class="row mx-auto py-3">
+                <div class="col-lg py-3" id="body-content">
                     <a href="#" class="py-3"><img src="./assets/img/sablon-pc.jpg" alt="sablon-pc" class="border border-dark border-3 my-3"></a>
                     <a href="#" class="py-3"><img src="./assets/img/sablon-pc.jpg" alt="sablon-pc" class="border border-dark border-3 my-3"></a>
                 </div>
-                <div class="col-md py-3">
+                <div class="col-lg py-3" id="body-content">
                     <a href="#" class="py-3"><img src="./assets/img/sablon-pc.jpg" alt="sablon-pc" class="border border-dark border-3 my-3"></a>
                     <a href="#" class="py-3"><img src="./assets/img/sablon-pc.jpg" alt="sablon-pc" class="border border-dark border-3 my-3"></a>
                 </div>
-                <div class="col-md py-3">
+                <div class="col-lg py-3" id="body-content">
                     <a href="#" class="py-3"><img src="./assets/img/sablon-pc.jpg" alt="sablon-pc" class="border border-dark border-3 my-3"></a>
                     <a href="#" class="py-3"><img src="./assets/img/sablon-pc.jpg" alt="sablon-pc" class="border border-dark border-3 my-3"></a>
                 </div>
