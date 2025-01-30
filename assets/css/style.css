@@ -54,13 +54,3 @@ a:hover {
         width: 400px;
     }
 }
-
-@media screen and (max-width: 576px) {
-    #body-content {
-        margin: auto;
-    }
-
-    /* #kategoriak {
-        padding: 0;
-    } */
-}
